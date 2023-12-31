@@ -8,5 +8,7 @@ target 'SwiftRXExample' do
   # Pods for SwiftRXExample
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'RxBinding'
+  pod 'NSObject+Rx'
 
 end

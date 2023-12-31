@@ -31,7 +31,7 @@
         <!--User List View Controller-->
         <scene sceneID="cEe-9b-ZWG">
             <objects>
-                <viewController id="1uy-z0-4Eq" customClass="UserListViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1uy-z0-4Eq" customClass="UserListViewController" customModule="SwiftRXExample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DJi-5H-vQe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,7 +40,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserListTableViewCell" rowHeight="100" id="g5V-KZ-bov" customClass="UserListTableViewCell" customModule="SwiftAsyncExample" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserListTableViewCell" rowHeight="100" id="g5V-KZ-bov" customClass="UserListTableViewCell" customModule="SwiftRXExample" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g5V-KZ-bov" id="hhH-ye-feQ">
@@ -85,10 +85,6 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="1uy-z0-4Eq" id="p5R-n9-h5A"/>
-                                    <outlet property="delegate" destination="1uy-z0-4Eq" id="xsR-lU-HK1"/>
-                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="V2b-wG-34H"/>
